@@ -9,9 +9,12 @@ i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
         loadPath: "/assets/i18n/{{ns}}/{{lng}}.json",
 
     },
+    //default language
     lng: 'en',
+    //fallback (if the desired language is not loaded)
     fallbackLng: "en",
     debug : false,
+    //namespace
     ns: ["common","home","about"],
     interpolation:{
         escapeValue: false,

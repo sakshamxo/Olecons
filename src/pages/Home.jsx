@@ -5,6 +5,7 @@ import feature2 from '../assets/feature-2.png'
 import { useTranslation } from 'react-i18next'
 
 const Home = () => {
+    //using translation hook from i18next
   const {t} = useTranslation(["home"]);
   
   return (
